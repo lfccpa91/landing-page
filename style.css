@@ -1,0 +1,143 @@
+body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header, .footer, .top-section {
+    background-color: #1F2937;
+    color:white;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+    padding: 10px 15%;
+
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-right ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.top-section {
+    display:flex;
+    justify-content: center;
+    padding:80px 15%;
+    gap: 20px;
+}
+
+.top-section img {
+    object-fit: cover;
+    width: 45%;
+    height: auto;
+}
+
+.hero-txt {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+.hero-sub, .header-right ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-sub {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    font-size: 24px;
+    padding:20px 20%;
+}
+
+.quote-block p {
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+.qt-source {
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-sub {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 8px;
+    border-style:solid;
+    border-color: #1F2937;
+}
+
+.call-to-action button {
+    border-color: white;
+    border-width:2px;
+}
+
+
+.info-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:20px;
+    padding:20px 10%;
+}
+
+.card img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
